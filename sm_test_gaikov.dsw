@@ -1,0 +1,67 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "engine"=.\engine\engine.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name nsLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "nsLib"=.\nsLib\nsLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/nsLib", MDDAAAAA
+    .\nslib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "render_d3d"=.\render_d3d\render_d3d.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/render_d3d", YDDAAAAA
+    .\render_d3d
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name nsLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

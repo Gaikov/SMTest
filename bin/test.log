@@ -1,0 +1,38 @@
+open log: Fri Apr 20 12:02:48 2018
+...register class
+...create window
+...loading render 'render_d3d.dll'
+...create d3d
+...enum modes
+------------------------------------
+ initialize Direct3D Render         
+------------------------------------
+initialize device
+...using device: Intel(R) HD Graphics 620
+...checking device caps
+max texture size: 8192x8192
+vertex texgen: supported
+...enum modes
+window activate: active
+window activate: active
+...client size: 800x600
+...init windowed mode: 800x600
+...using backbuffer format: X8R8G8B8 (b:32,c:3)
+...create device
+...using hardware vertex processing
+...init device states
+...reload vbuffers
+...using texture format for RGBA: A4R4G4B4 (b:16, c:4)
+...using texture format for RGB: R5G6B5 (b:16, c:3)
+...reload textures
+------------------------------------
+ uninitialize Direct3D Render       
+------------------------------------
+...release vbuffers
+...release device states
+...release device
+...delete d3d
+...unloading render
+...destroy window
+...unregister class
+close log: Fri Apr 20 12:03:19 2018

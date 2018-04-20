@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[nsLib.dsp]
+SCC_Aux_Path = "D:\AxySoft\src_base"
+SCC_Project_Name = "$/nsLib", MDDAAAAA
